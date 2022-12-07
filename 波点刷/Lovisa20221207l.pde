@@ -5,16 +5,7 @@ class PController {
   PController() {
     partiDots = new ArrayList();
   }
-
-  /**
-   * [addParticles description]
-   * @Author   bit2atom
-   * @DateTime 2014-01-02 T08:56:17+0800
-   * @param    {[type]}                 int     amt      [description]
-   * @param    {[type]}                 PVector mouseLoc [description]
-   * @param    {[type]}                 PVector mouseVel [description]
-   */
-  void addParticles(int amt, PVector mouseLoc, PVector mouseVel) {
+ void addParticles(int amt, PVector mouseLoc, PVector mouseVel) {
     for (int i=0;i<amt;i++) {
       float randRadiansLoc = random(2*PI);
       PVector initLocOffset = new PVector(cos(randRadiansLoc)*5, sin(randRadiansLoc)*5);
@@ -29,14 +20,7 @@ class PController {
       partiDots.add(additionalParticle);
     }
   }
-
-  /**
-   * [repulse description]
-   * @Author   bit2atom
-   * @DateTime 2014-01-02 08:56:28+0800
-   * @return   {[type]}                 [description]
-   */
-  void repulse() {
+ void repulse() {
     for (int i=0;i<partiDots.size();i++) {
       PartiDot targetParticle1 = (PartiDot) partiDots.get(i);
       for (int j=i+1;j<partiDots.size();j++) {
