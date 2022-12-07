@@ -1,12 +1,3 @@
-/*
-* @Author: bit2atom | SJTU-ChinaGold DesignIntelligence
-* @Email:  zhanglliqun@gmail.com
-* @Date:   2014-01-02 11:31:40
-* @brief
-* @Last Modified by:   bit2atommac2019
-* @Last Modified time: 2022-10-10 08:57:17
-* @detail
-*/
 String selectedFile;
 
 PController pc;
