@@ -1,12 +1,3 @@
-/*
-* @Author: bit2atom | SJTU-ChinaGold DesignIntelligence
-* @Email:  zhanglliqun@gmail.com
-* @Date:   2014-01-02 19:46:35
-* @brief
-* @Last Modified by:   bit2atommac2019
-* @Last Modified time: 2022-10-10 08:57:16
-* @detail
-*/
 class PartiDot {
   PVector loc;
   PVector vel;
@@ -31,13 +22,6 @@ class PartiDot {
     mass = sq(r)*0.0001+0.01;
   }
 
-  /**
-   * [update description]
-   * @Author   bit2atom
-   * @DateTime 2014-01-02 T08:55:46+0800
-   * @param    {[type]}                 PImage pattern       [description]
-   * @return   {[type]}                        [description]
-   */
   void update(PImage pattern) {
     vel.add(acc);
 
