@@ -7,3 +7,9 @@
 然后点击按键1或2或3来改变圆形的颜色
 
 之后可以按照自己的喜好来任意点击按键或者拖动滑块组来调整圆形的大小和颜色，完成自己想要得到的画面。
+
+![屏幕截图 2022-12-21 233019](https://user-images.githubusercontent.com/117883851/208946392-a54b8adf-2a4c-4dcd-9f71-741821e88839.png)
+
+![屏幕截图 2022-12-21 233044](https://user-images.githubusercontent.com/117883851/208946398-ffd98d93-1f1e-49e3-8275-da18a41f5683.png)
+
+![屏幕截图 2022-12-21 233108](https://user-images.githubusercontent.com/117883851/208946410-685b1b28-af2c-47bd-b49c-cb7d4133f81c.png)
